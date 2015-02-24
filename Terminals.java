@@ -1,15 +1,17 @@
+
 public abstract class Terminals extends Airport
 {
-    public Strings[] getPlanes()
+    public String getPlanes()
     {
-        
+        return "Planes";
     }
     
-    public Strings[] getGates()
+    public String getGates()
     {
-        
+        return "Gates";
     }
     
-    abstract Strings[] getSchedule();
-    abstract Strings[] getRestruants();
+    abstract String getSchedule();
+    abstract String getRestruants();
+    abstract String getBathrooms();
 }
